@@ -5,7 +5,7 @@ services:
     image: docker.io/library/nginx:1.27-alpine
     network_mode: host   # rootful Podman: forwarded ports are dropped by ufw, host ports are not
     environment:
-      MESSAGE: "Salut din GitOps - versiunea 1"
+      MESSAGE: "Salut din GitOps - versiunea 2"
       PORT: "8088"
     command:
       - sh
